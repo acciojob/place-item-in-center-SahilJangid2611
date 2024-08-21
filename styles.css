@@ -1,16 +1,11 @@
-/* Ensure that the holder takes up the full viewport width and height */
-.holder {
-  display: flex;                  /* Use Flexbox layout */
-  justify-content: center;        /* Center horizontally */
-  align-items: center;            /* Center vertically */
-  width: 100vw;                   /* Full viewport width */
-  height: 100vh;                  /* Full viewport height */
-  margin: 0;                      /* Remove default body margin */
+.holder{
+	display:flex;
+	justify-content:center;
+	align-content:center;
 }
 
-/* Styling for item-1 */
-.item-1 {
-  width: 100px;                   /* Set the width */
-  height: 100px;                  /* Set the height */
-  background-color: red;          /* Set the background color */
+.item-1{
+	width:100px;
+	height:100px;
+	background-color:red;
 }
